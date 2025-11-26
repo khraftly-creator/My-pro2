@@ -1,1 +1,39 @@
 
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إنشاء حساب جديد</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>إنشاء حساب جديد</h2>
+        <form action="welcome.html">
+            <div class="input-group">
+                <label>الاسم الكامل</label>
+                <input type="text" placeholder="مثال: محمد أحمد" required>
+            </div>
+            <div class="input-group">
+                <label>البريد الإلكتروني</label>
+                <input type="email" placeholder="name@example.com" required>
+            </div>
+            <div class="input-group">
+                <label>كلمة المرور</label>
+                <input type="password" placeholder="******" minlength="6" required>
+            </div>
+            <div class="input-group">
+                <label>تأكيد كلمة المرور</label>
+                <input type="password" placeholder="******" required>
+            </div>
+            
+            <button type="submit" class="btn">تسجيل الحساب</button>
+            
+            <div class="links">
+                لديك حساب بالفعل؟ <a href="login.html">سجل دخولك هنا</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
